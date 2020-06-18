@@ -11,7 +11,7 @@ const CANVAS_SIZE = 700;
 canvas.width = CANVAS_SIZE; //픽셀 사이즈 줘야함(css랑 별개로)
 canvas.height = CANVAS_SIZE;
 
-ctx.fillStyle-"white";
+ctx.fillStyle="white";
 ctx.fillRect(0,0,canvas.width,canvas.height);
 ctx.strokeStyle = INITIAL_COLOR;
 ctx.fillStyle = INITIAL_COLOR;
